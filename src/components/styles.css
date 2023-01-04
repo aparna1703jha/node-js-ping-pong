@@ -58,7 +58,7 @@
     border-radius: 5px;
     padding: 20px;
     margin-top:15px;
-    background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+     background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
 }
 .todos__single--text {
   flex: 1;
@@ -68,13 +68,14 @@
 }
 
 .todos__single--text:focus {
-  outline: none;
+  outline: green
 }
 
 .icon {
   margin-left: 10px;
   font-size: 25px;
   cursor: pointer;
+
 }
 
 @media (max-width: 1200px) {
